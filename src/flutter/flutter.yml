@@ -17,9 +17,9 @@ jobs:
       - run:
           name: Build
           command: flutter packages pub run build_runner build --delete-conflicting-outputs
-      - run:
-          name: Build ios
-          command: flutter build ios --release --no-codesign
+#      - run:
+#          name: Build ios
+#          command: flutter build ios --release --no-codesign
 
       - save_cache:
           paths:
