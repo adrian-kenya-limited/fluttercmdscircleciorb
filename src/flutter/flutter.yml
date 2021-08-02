@@ -74,3 +74,4 @@ jobs:
       - run:
           name: Run tests
           command: flutter test
+
